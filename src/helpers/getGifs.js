@@ -1,7 +1,7 @@
 // Definimos una función asíncrona getGifs que toma una categoría como argumento 
 export const getGifs = async( category ) => {
 const url = 
-`https://api.giphy.com/v1/gifs/search?api_key=31TgYVbIgfZmTMhTm2rTYf2Nyci6Yn2T&q=${
+`https://api.giphy.com/v1/gifs/search?api_key=FCUeRbfynP9ECVRNLKQqgrEMqtE0ttCv&q=${
 category }&limit=10`; 
 // Hacemos una petición a la API de Giphy 
 const resp = await fetch( url ); 
